@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <a href="Countdown.js"></a>
+
+    <title>Timer</title>
+    <style type="text/css">
+    body{
+        background-color: #00ECB9;
+    }
+
+        p{
+            font-size: 25px;
+            color: #0B4EED;
+        }
+
+        h1{
+            font-size: 35px;
+            color: purple;
+            padding-bottom: 15px;
+        }
+
+        input{
+            color: white;
+            font-size: 30px;
+            background-color: #32B091;
+            padding: 30px;
+            margin-bottom: 15px;
+        }
+
+        button{
+            font-size: 20px;
+            color: #EA16E7;
+            padding: 20px;
+            
+        }
+        .div{
+          text-align: center;
+          padding: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+   <div class="div">
+    <h1>Timer</h1>
+    <center>
+    <table class="div">
+        <tr>
+            <td>
+                <p>Hours</p>
+            </td>
+            <td>
+                <p>Minutes</p>
+            </td>
+            <td>
+                <p>Seconds</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" min="0" max="99" id="hour" value="0">
+            </td>
+            <td>
+                <input type="number" min="0" max="59" id="min" value="0">
+            </td>
+            <td>
+                <input type="number" min="0" max="59" id="sec" value="0">
+            </td>
+        </tr>
+    </table>
+</center>
+    <button id="forstart" onclick="disability()">Start</button>
+    <button id="forreset" onclick="enability()">Reset</button>
+         </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="Countdown.js"></script>
+</body>
+
+</html>
